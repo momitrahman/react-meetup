@@ -1,5 +1,7 @@
-@import './base/_base.scss';
-@import './base/_variables.scss';
-@import './base/_typography.scss';
+@import './base/base';
+@import './base/variables';
+@import './base/typography';
+@import './base/common';
 
-@import './layouts/_home.scss';
+@import './layouts/home';
+@import './layouts/about';
