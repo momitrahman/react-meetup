@@ -1,0 +1,39 @@
+.home {
+  // background-image: url('../asset/images/hero.jpeg');
+  background-image: linear-gradient(
+      to right,
+      rgba(#b24592, 0.5),
+      rgba(#f15f79, 0.5)
+    ),
+    url('../asset/images/hero.jpeg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  text-align: center;
+}
+
+.home-info {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  &__img {
+    display: inline-block;
+    width: 20%;
+    height: 20%;
+  }
+
+  &__title {
+    font-size: 5rem;
+    color: $font-color-s;
+  }
+
+  &__date {
+    font-size: 4rem;
+    color: $color-g;
+  }
+}
