@@ -1,9 +1,9 @@
 .home {
   // background-image: url('../asset/images/hero.jpeg');
   background-image: linear-gradient(
-      to right,
-      rgba(#b24592, 0.8),
-      rgba(#f15f79, 0.8)
+      to right top,
+      rgba($color-o, 0.8),
+      rgba($color-o, 0.8)
     ),
     url('../asset/images/hero.jpeg');
   background-position: center;
