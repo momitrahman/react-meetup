@@ -1,0 +1,35 @@
+.speaker {
+  margin: 2rem auto;
+  width: 80%;
+  &__list {
+    text-align: center;
+  }
+
+  &__item {
+    box-shadow: 0 2px 3px $box-color-b;
+    display: inline-block;
+    margin: 2rem 2rem;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+
+  &__item-img {
+    width: 100%;
+    height: auto;
+    margin-bottom: -1rem;
+  }
+
+  &__item-info {
+    background-color: $color-b;
+    // margin-top: -1rem;
+    padding: 2rem 0;
+  }
+
+  &__item-info-name {
+    font-size: 2rem;
+  }
+
+  &__item-info-title {
+    font-size: 1.6rem;
+  }
+}

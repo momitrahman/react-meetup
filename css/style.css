@@ -28,7 +28,7 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  width: 100vw;
+  width: 99vw;
   height: 100vh;
   text-align: center; }
   .home__info {
@@ -69,3 +69,26 @@ body {
     font-size: 5rem; }
   .feature__item-info {
     font-size: 2rem; }
+
+.speaker {
+  margin: 2rem auto;
+  width: 80%; }
+  .speaker__list {
+    text-align: center; }
+  .speaker__item {
+    box-shadow: 0 2px 3px black;
+    display: inline-block;
+    margin: 2rem 2rem;
+    border-radius: 5px;
+    overflow: hidden; }
+  .speaker__item-img {
+    width: 100%;
+    height: auto;
+    margin-bottom: -1rem; }
+  .speaker__item-info {
+    background-color: #49c5b6;
+    padding: 2rem 0; }
+  .speaker__item-info-name {
+    font-size: 2rem; }
+  .speaker__item-info-title {
+    font-size: 1.6rem; }
