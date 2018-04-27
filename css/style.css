@@ -9,7 +9,8 @@ html {
   font-size: 62.5%; }
 
 body {
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  background: #fffcf9; }
 
 body {
   font-family: 'Montserrat', sans-serif;
@@ -24,11 +25,11 @@ body {
   text-align: center; }
 
 .home {
-  background-image: linear-gradient(to top, #37ecba 0%, #72afd3 100%);
+  background-image: linear-gradient(to top, #a3bded 0%, #6991c7 100%);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  width: 99vw;
+  width: 100vw;
   height: 100vh;
   text-align: center; }
   .home__info {
@@ -56,12 +57,12 @@ body {
     padding: 1rem; }
 
 .feature {
+  background-image: linear-gradient(to bottom, #a3bded 0%, #6991c7 100%);
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  margin: 2rem 0;
   padding: 1rem;
-  background: #49c5b6; }
+  height: 14vh; }
   .feature__item {
     text-align: center;
     display: inline-block; }
@@ -80,7 +81,8 @@ body {
     box-shadow: 0 2px 3px black;
     margin: 2rem 2rem;
     border-radius: 5px;
-    overflow: hidden; }
+    overflow: hidden;
+    width: 20%; }
   .speaker__item-img {
     width: 100%;
     height: auto;
@@ -105,7 +107,8 @@ body {
     width: 10%;
     margin-top: 3rem;
     font-size: 2.5rem;
-    font-weight: 300; }
+    font-weight: 300;
+    border-bottom: 3px solid #49c5b6; }
   .schedule__line {
     align-self: stretch;
     background-color: #49c5b6;
@@ -116,42 +119,40 @@ body {
       position: absolute;
       width: 0;
       height: 0;
-      top: 4rem;
+      top: 6.5rem;
       left: -0.9rem;
       transform: translateX(0%);
       border: 10px solid #49c5b6;
       border-radius: 100%; }
   .schedule__details {
-    width: 30%;
-    box-shadow: 0 1px 1px black;
+    width: 50rem;
+    display: flex;
+    border: 3px solid #49c5b6;
+    border-radius: 5px;
     padding: 1rem;
     position: relative;
     margin-top: 3rem;
     margin-left: 5rem;
-    background: #49c5b6;
     transition: all 0.3s ease-in; }
     .schedule__details:after {
       content: '';
       position: absolute;
       width: 0;
       height: 0;
-      top: 1rem;
+      top: 3.5rem;
       left: -1.5rem;
       border-width: 10px 15px 10px 0;
       border-color: transparent #49c5b6 transparent transparent;
       border-style: solid; }
     .schedule__details:hover {
-      transform: translateX(-3rem); }
+      transform: translateX(-2.5rem); }
   .schedule__img {
-    display: inline-block;
     width: 100px;
     height: 100px;
     border-radius: 100%;
     margin-right: 3rem; }
   .schedule__info {
-    display: inline-block;
     margin-top: 2rem;
-    vertical-align: top;
     text-align: left; }
   .schedule__title {
     font-size: 2rem; }
