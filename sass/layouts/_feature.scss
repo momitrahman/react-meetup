@@ -1,11 +1,10 @@
 .feature {
-  // background-image: linear-gradient(to bottom, #37ecba 0%, #72afd3 100%);
-  background-image: linear-gradient(to bottom, #a3bded 0%, #6991c7 100%);
   display: flex;
   justify-content: space-evenly;
   align-items: center;
   padding: 1rem;
   height: 14vh;
+  background-color: $color-b;
 
   &__item {
     text-align: center;

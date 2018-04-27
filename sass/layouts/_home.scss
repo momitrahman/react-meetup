@@ -1,16 +1,15 @@
 .home {
-  // background-image: linear-gradient(to top, #37ecba 0%, #72afd3 100%);
-  background-image: linear-gradient(to top, #a3bded 0%, #6991c7 100%);
+  background-image: linear-gradient(60deg, #96deda 0%, #50c9c3 100%);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   width: 100vw;
-  height: 100vh;
+  height: 80vh;
   text-align: center;
 
   &__info {
     position: absolute;
-    top: 50%;
+    top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
   }

@@ -12,6 +12,11 @@
     border-radius: 5px;
     overflow: hidden;
     width: 20%;
+    transition: all 0.2s ease-in;
+
+    &:hover {
+      transform: scale(0.9);
+    }
   }
 
   &__item-img {

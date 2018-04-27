@@ -16,12 +16,11 @@
     margin-top: 3rem;
     font-size: 2.5rem;
     font-weight: 300;
-    border-bottom: 3px solid $color-b;
+    border-bottom: 2px solid $color-b;
   }
 
   &__line {
     align-self: stretch;
-    // border: 1px solid $color-b;
     background-color: $color-b;
     width: 2px;
     position: relative;
@@ -42,15 +41,13 @@
   &__details {
     width: 50rem;
     display: flex;
-    // box-shadow: 0 1px 1px black;
-    border: 3px solid $color-b;
+    border: 2px solid $color-b;
     border-radius: 5px;
     padding: 1rem;
     position: relative;
     margin-top: 3rem;
     margin-left: 5rem;
-    // background: $color-b;
-    transition: all 0.3s ease-in;
+    transition: all 0.2s ease-in;
 
     &:after {
       content: '';
