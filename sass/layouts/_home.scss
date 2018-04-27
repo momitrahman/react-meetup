@@ -1,11 +1,5 @@
 .home {
-  // background-image: url('../asset/images/hero.jpeg');
-  background-image: linear-gradient(
-      to right top,
-      rgba($color-o, 0.8),
-      rgba($color-o, 0.8)
-    ),
-    url('../asset/images/hero.jpeg');
+  background-image: linear-gradient(to top, #37ecba 0%, #72afd3 100%);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;

@@ -6,8 +6,8 @@
   }
 
   &__item {
-    box-shadow: 0 2px 3px $box-color-b;
     display: inline-block;
+    box-shadow: 0 2px 3px $box-color-b;
     margin: 2rem 2rem;
     border-radius: 5px;
     overflow: hidden;
@@ -21,7 +21,6 @@
 
   &__item-info {
     background-color: $color-b;
-    // margin-top: -1rem;
     padding: 2rem 0;
   }
 
