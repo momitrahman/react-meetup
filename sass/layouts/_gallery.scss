@@ -1,0 +1,25 @@
+.gallery {
+  width: 80%;
+  margin: 2rem auto;
+  &__images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__image-box {
+    display: flex;
+  }
+
+  &__image {
+    display: block;
+    margin: 2rem;
+    box-shadow: 0 1px 3px $box-color-b;
+    max-width: 500px;
+    max-height: 300px;
+  }
+
+  &__control {
+    font-size: 5rem;
+  }
+}

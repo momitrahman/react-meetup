@@ -166,3 +166,21 @@ body {
     color: #e05038; }
   .schedule__speaker {
     font-size: 1.6rem; }
+
+.gallery {
+  width: 80%;
+  margin: 2rem auto; }
+  .gallery__images {
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+  .gallery__image-box {
+    display: flex; }
+  .gallery__image {
+    display: block;
+    margin: 2rem;
+    box-shadow: 0 1px 3px black;
+    max-width: 500px;
+    max-height: 300px; }
+  .gallery__control {
+    font-size: 5rem; }
