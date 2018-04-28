@@ -1,10 +1,15 @@
 .home {
-  background-image: linear-gradient(60deg, #96deda 0%, #50c9c3 100%);
+  background-image: linear-gradient(
+      to bottom,
+      rgba($color-b, 0.5),
+      rgba($color-b, 0.2)
+    ),
+    url('../asset/images/hero.jpeg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   width: 100vw;
-  height: 80vh;
+  height: 100vh;
   text-align: center;
 
   &__info {
@@ -26,6 +31,7 @@
 
   &__date {
     font-size: 4rem;
-    color: $color-g;
+    font-weight: 700;
+    color: $color-b;
   }
 }

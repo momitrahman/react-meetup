@@ -3,16 +3,18 @@
   justify-content: space-evenly;
   align-items: center;
   padding: 1rem;
-  height: 14vh;
+  // background-color: #48c6ef;
   background-color: $color-b;
 
   &__item {
     text-align: center;
     display: inline-block;
+    margin: 1rem;
   }
 
   &__item-icon {
     font-size: 5rem;
+    color: $color-g;
   }
   &__item-info {
     font-size: 2rem;
