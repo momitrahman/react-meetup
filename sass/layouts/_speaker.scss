@@ -1,40 +1,56 @@
 .speaker {
-  margin: 2rem auto;
+  margin: 10rem auto 0 auto;
   width: 80%;
   &__list {
     text-align: center;
+    display: flex;
+    justify-content: center;
+    align-content: center;
   }
 
   &__item {
-    display: inline-block;
-    box-shadow: 0 2px 3px $box-color-b;
-    margin: 2rem 2rem;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 2px 3px black;
+    margin: 2rem;
     border-radius: 5px;
     overflow: hidden;
-    transition: all 0.2s ease-in;
-
-    &:hover {
-      transform: scale(0.9);
-    }
   }
 
-  &__item-img {
-    width: 100%;
-    height: auto;
+  &__img {
+    display: block;
+    max-width: 400px;
+    max-height: 300px;
     margin-bottom: -1rem;
   }
 
-  &__item-info {
-    background-color: $color-b;
-    padding: 2rem 0;
+  &__info {
+    background-color: $color-1;
+    padding: 1rem 0;
   }
 
-  &__item-info-name {
-    font-size: 2rem;
-    color: $color-g;
+  &__name {
+    font-size: 2.2rem;
+    color: $color-2;
   }
 
-  &__item-info-title {
+  &__company {
     font-size: 1.6rem;
+    font-weight: 300;
+    color: $color-4;
+    margin-bottom: 1rem;
+  }
+
+  &__social {
+    display: inline-block;
+    font-size: 2rem;
+    margin: 0 1rem;
+    cursor: pointer;
+    color: $color-2;
+
+    &:hover {
+      color: $color-4;
+      transform: scale(1.5);
+    }
   }
 }
