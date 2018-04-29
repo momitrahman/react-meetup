@@ -1,5 +1,9 @@
 .schedule {
-  margin: 10rem auto 0 auto;
+  padding: 2rem 0 5rem 0;
+
+  &__header {
+    margin: 10rem auto 3rem auto;
+  }
 
   &__list {
     margin-top: 2rem;
@@ -16,7 +20,7 @@
     width: 15%;
     margin-top: 3rem;
     border-bottom: 1px solid $color-1;
-    color: $color-3;
+    color: $color-4;
   }
 
   &__line {
@@ -27,6 +31,7 @@
   }
 
   &__details {
+    background-color: white;
     width: 50rem;
     display: flex;
     border: 1px solid $color-1;
@@ -42,7 +47,7 @@
       position: absolute;
       width: 0;
       height: 0;
-      top: 3rem;
+      top: 2.8rem;
       left: -1.5rem;
       border-width: 10px 15px 10px 0;
       border-color: transparent $color-1 transparent transparent;
@@ -55,6 +60,7 @@
     height: 80px;
     border-radius: 100%;
     margin-right: 3rem;
+    margin-left: 1rem;
   }
 
   &__info {
