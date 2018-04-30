@@ -53,6 +53,10 @@
       border-color: transparent $color-1 transparent transparent;
       border-style: solid;
     }
+
+    &:hover {
+      background-color: $color-1;
+    }
   }
 
   &__img {

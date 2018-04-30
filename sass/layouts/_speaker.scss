@@ -17,6 +17,10 @@
     margin: 2rem;
     border-radius: 5px;
     overflow: hidden;
+
+    &:hover {
+      filter: grayscale(50%) brightness(80%);
+    }
   }
 
   &__img {

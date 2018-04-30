@@ -179,6 +179,8 @@ body {
     margin: 2rem;
     border-radius: 5px;
     overflow: hidden; }
+    .speaker__item:hover {
+      filter: grayscale(50%) brightness(80%); }
   .speaker__img {
     display: block;
     max-width: 400px;
@@ -264,6 +266,8 @@ body {
       border-width: 10px 15px 10px 0;
       border-color: transparent #00c9a7 transparent transparent;
       border-style: solid; }
+    .schedule__details:hover {
+      background-color: #00c9a7; }
   .schedule__img {
     width: 80px;
     height: 80px;
@@ -316,7 +320,8 @@ body {
     max-width: 200px;
     max-height: 150px;
     margin: 2rem;
-    border-radius: 5px; }
+    border-radius: 5px;
+    cursor: pointer; }
 
 .address {
   margin: 8rem auto 3rem auto;
@@ -334,6 +339,15 @@ body {
     color: #182c61;
     text-transform: uppercase;
     text-align: center; }
+  .address__location, .address__contact {
+    margin: 3rem;
+    padding: 2rem;
+    border: 1px solid #00c9a7;
+    border-radius: 5px;
+    background-color: white;
+    position: relative; }
+    .address__location:hover, .address__contact:hover {
+      background-color: #00c9a7; }
   .address__info {
     font-size: 1.6rem; }
     .address__info:after {
@@ -352,10 +366,3 @@ body {
     color: #182c61;
     vertical-align: middle;
     margin-right: 5px; }
-  .address__location, .address__contact {
-    margin: 3rem;
-    padding: 2rem;
-    border: 1px solid #00c9a7;
-    border-radius: 5px;
-    background-color: white;
-    position: relative; }
