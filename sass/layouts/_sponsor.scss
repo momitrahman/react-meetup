@@ -12,6 +12,8 @@
 
   &__img {
     display: block;
+    min-width: 200px;
+    min-height: 150px;
     max-width: 200px;
     max-height: 150px;
     margin: 2rem;

@@ -18,7 +18,7 @@
     align-self: flex-start;
     font-size: 2rem;
     width: 15%;
-    margin-top: 3rem;
+    margin-top: 2rem;
     border-bottom: 1px solid $color-1;
     color: $color-2;
   }
@@ -38,17 +38,17 @@
     border-radius: 5px;
     padding: 1rem;
     position: relative;
-    margin-top: 3rem;
+    margin-top: 2rem;
     margin-left: 5rem;
     transition: all 0.2s ease-in;
 
-    &:after {
+    &:before {
       content: '';
       position: absolute;
       width: 0;
       height: 0;
       top: 2.8rem;
-      left: -1.5rem;
+      right: 100%;
       border-width: 10px 15px 10px 0;
       border-color: transparent $color-1 transparent transparent;
       border-style: solid;
