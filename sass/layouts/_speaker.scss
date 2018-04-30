@@ -31,13 +31,11 @@
 
   &__name {
     font-size: 2.2rem;
-    color: $color-2;
+    font-weight: 300;
   }
 
   &__company {
     font-size: 1.6rem;
-    font-weight: 300;
-    color: $color-4;
     margin-bottom: 1rem;
   }
 
@@ -50,7 +48,7 @@
     font-weight: 100;
 
     &:hover {
-      color: $color-4;
+      color: $color-5;
       transform: scale(1.5);
     }
   }
