@@ -1,6 +1,8 @@
 .gallery {
-  margin: 8rem auto 0 auto;
+  margin: 8rem auto 3rem auto;
+  padding: 2rem;
   width: 80%;
+
   &__images {
     display: flex;
     justify-content: center;

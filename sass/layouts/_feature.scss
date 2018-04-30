@@ -1,9 +1,9 @@
 .feature {
   margin: 8rem auto 0 auto;
+  padding: 2rem;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  padding: 1rem;
   background-color: $color-5;
 
   &__item {
