@@ -15,9 +15,10 @@
 
   &__info {
     position: absolute;
-    top: 40%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    animation: upToDown 2s ease-in;
   }
   &__img {
     display: inline-block;
@@ -26,7 +27,6 @@
   }
 
   &__title {
-    font-family: 'Arima Madurai', cursive;
     font-size: 5rem;
     font-weight: 100;
     color: $color-3;
@@ -38,5 +38,21 @@
     margin-top: 2rem;
     text-transform: uppercase;
     color: $color-1;
+  }
+
+  &__reg {
+    font-size: 2.5rem;
+    color: $color-1;
+    background-color: transparent;
+    border: 3px solid $color-1;
+    margin-top: 5rem;
+    font-weight: 100;
+    transition: all 0.3s ease-in;
+
+    &:hover {
+      color: $color-5;
+      border: 3px solid $color-5;
+      cursor: pointer;
+    }
   }
 }
