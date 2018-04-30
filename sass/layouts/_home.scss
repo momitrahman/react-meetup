@@ -1,8 +1,8 @@
 .home {
   background-image: linear-gradient(
       to bottom,
-      rgba($color-4, 0.8),
-      rgba($color-4, 0.8)
+      rgba($color-4, 0.6),
+      rgba($color-4, 0.6)
     ),
     url('../asset/images/hero.jpeg');
   background-blend-mode: multiply, multiply;
@@ -29,7 +29,7 @@
     font-family: 'Arima Madurai', cursive;
     font-size: 5rem;
     font-weight: 100;
-    color: #61dafb;
+    color: $color-3;
   }
 
   &__date {

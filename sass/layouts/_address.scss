@@ -10,7 +10,6 @@
   }
 
   &__map {
-    border: 1px solid $color-1;
     border-radius: 5px;
     overflow: hidden;
   }
@@ -46,7 +45,7 @@
 
   &__location,
   &__contact {
-    margin: 5rem 2rem 3rem 2rem;
+    margin: 3rem;
     padding: 2rem;
     border: 1px solid $color-1;
     border-radius: 5px;
