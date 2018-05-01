@@ -53,3 +53,22 @@
 .d-font {
   font-family: 'Arima Madurai', cursive;
 }
+
+.top {
+  position: fixed;
+  bottom: 5%;
+  right: 2%;
+
+  &__icon {
+    display: block;
+    font-size: 2rem;
+    color: $color-1;
+    background-color: $color-4;
+    padding: 3px 10px;
+    border-radius: 5px;
+
+    &:hover {
+      background-color: $color-5;
+    }
+  }
+}

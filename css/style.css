@@ -67,6 +67,20 @@ body {
 .d-font {
   font-family: 'Arima Madurai', cursive; }
 
+.top {
+  position: fixed;
+  bottom: 5%;
+  right: 2%; }
+  .top__icon {
+    display: block;
+    font-size: 2rem;
+    color: #00c9a7;
+    background-color: #20232a;
+    padding: 3px 10px;
+    border-radius: 5px; }
+    .top__icon:hover {
+      background-color: #ffffff; }
+
 .header {
   position: fixed;
   top: 0;
@@ -135,7 +149,8 @@ body {
   background-size: cover;
   width: 99vw;
   height: 99vh;
-  text-align: center; }
+  text-align: center;
+  position: relative; }
   .home__info {
     position: absolute;
     top: 50%;
@@ -351,7 +366,8 @@ body {
     border: 1px solid #00c9a7;
     border-radius: 5px;
     background-color: white;
-    position: relative; }
+    position: relative;
+    transition: all 0.2s ease-in; }
     .address__location:hover, .address__contact:hover {
       background-color: #00c9a7; }
   .address__info {
