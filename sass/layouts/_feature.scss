@@ -5,6 +5,7 @@
   justify-content: space-evenly;
   align-items: center;
   background-color: $color-5;
+  color: $color-2;
 
   &__item {
     text-align: center;
@@ -13,11 +14,9 @@
   }
 
   &__item-icon {
-    font-size: 3.5rem;
-    color: $color-2;
+    font-size: 4rem;
   }
   &__item-info {
     font-size: 1.8rem;
-    font-weight: 300;
   }
 }

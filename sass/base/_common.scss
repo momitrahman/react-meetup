@@ -13,7 +13,7 @@
   &:after {
     content: '';
     display: block;
-    width: 55%;
+    width: 60%;
     position: absolute;
     top: 0;
     left: 0;
@@ -22,9 +22,9 @@
   &:before {
     content: '';
     display: block;
-    width: 55%;
+    width: 60%;
     position: absolute;
-    top: 90%;
+    bottom: 10%;
     right: 0;
     border-bottom: 1px solid $color-4;
   }
