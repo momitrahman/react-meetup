@@ -169,6 +169,7 @@ body {
   color: #ffffff;
   text-decoration: none;
   font-size: 1.8rem;
+  margin: 1rem;
   border-bottom: 2px solid none;
   position: relative;
   z-index: 1;
@@ -177,6 +178,7 @@ body {
   .header__link:link,
   .header__link:visited {
     font-size: 1.6rem;
+    margin: 5px;
   }
 }
 .header__link:link:before,
@@ -423,6 +425,11 @@ body {
 .schedule {
   padding: 2rem 0 5rem 0;
 }
+@media (max-width: 600px) {
+  .schedule {
+    padding: 1rem 0 2rem 0;
+  }
+}
 .schedule__header {
   margin: 10rem auto 3rem auto;
 }
@@ -547,7 +554,7 @@ body {
 }
 @media (max-width: 600px) {
   .gallery {
-    margin: 5rem auto 0 auto;
+    margin: 5rem auto 1rem auto;
     padding: 1rem;
   }
 }
@@ -583,7 +590,7 @@ body {
 }
 @media (max-width: 600px) {
   .sponsor__header {
-    margin: 5rem auto 0 auto;
+    margin: 5rem auto 1rem auto;
   }
 }
 .sponsor__list {
@@ -601,8 +608,8 @@ body {
 }
 .sponsor__img {
   display: block;
-  max-width: 200px;
-  max-height: 150px;
+  width: 200px;
+  height: 150px;
   margin: 2rem;
   border-radius: 5px;
   cursor: pointer;
@@ -612,9 +619,10 @@ body {
   margin: 8rem auto 3rem auto;
   padding: 2rem;
 }
-@media (max-width: 600px) {
+@media (max-width: 700px) {
   .address {
     margin: 5rem auto 0 auto;
+    padding: 1rem;
   }
 }
 .address__box {
@@ -697,6 +705,11 @@ body {
   border-width: 10px 15px 10px 0;
   border-color: transparent #00c9a7 transparent transparent;
   border-style: solid;
+}
+@media (max-width: 700px) {
+  .address__info:after {
+    display: none;
+  }
 }
 .address__icon {
   display: inline-block;

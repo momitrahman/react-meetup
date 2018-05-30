@@ -28,12 +28,14 @@
     color: $color-5;
     text-decoration: none;
     font-size: 1.8rem;
+    margin: 1rem;
     border-bottom: 2px solid none;
     position: relative;
     z-index: 1;
 
     @media (max-width: 600px) {
       font-size: 1.6rem;
+      margin: 5px;
     }
 
     &:before {

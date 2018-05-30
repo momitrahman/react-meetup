@@ -3,7 +3,7 @@
   &__header {
     margin: 8rem auto 3rem auto;
     @media (max-width: 600px) {
-      margin: 5rem auto 0 auto;
+      margin: 5rem auto 1rem auto;
     }
   }
 
@@ -19,8 +19,8 @@
 
   &__img {
     display: block;
-    max-width: 200px;
-    max-height: 150px;
+    width: 200px;
+    height: 150px;
     margin: 2rem;
     border-radius: 5px;
     cursor: pointer;

@@ -1,6 +1,9 @@
 .schedule {
   padding: 2rem 0 5rem 0;
 
+  @media (max-width: 600px) {
+    padding: 1rem 0 2rem 0;
+  }
   &__header {
     margin: 10rem auto 3rem auto;
     @media (max-width: 600px) {

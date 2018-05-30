@@ -2,8 +2,9 @@
   margin: 8rem auto 3rem auto;
   padding: 2rem;
 
-  @media (max-width: 600px) {
+  @media (max-width: 700px) {
     margin: 5rem auto 0 auto;
+    padding: 1rem;
   }
   &__box {
     display: flex;
@@ -70,6 +71,9 @@
       border-width: 10px 15px 10px 0;
       border-color: transparent $color-1 transparent transparent;
       border-style: solid;
+      @media (max-width: 700px) {
+        display: none;
+      }
     }
   }
 
