@@ -1,16 +1,16 @@
 .gallery {
   margin: 8rem auto 3rem auto;
   padding: 2rem;
-  width: 80%;
-
-  &__images {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  @media (max-width: 600px) {
+    margin: 5rem auto 0 auto;
+    padding: 1rem;
   }
 
   &__image-box {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
   }
 
   &__image {
@@ -18,12 +18,11 @@
     margin: 2rem;
     box-shadow: 0 1px 3px black;
     max-width: 350px;
-    max-height: 300px;
+    height: 250px;
     border-radius: 5px;
-  }
 
-  &__control {
-    font-size: 5rem;
-    color: $color-1;
+    @media (max-width: 600px) {
+      margin: 1rem 0;
+    }
   }
 }

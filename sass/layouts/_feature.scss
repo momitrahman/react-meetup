@@ -6,7 +6,11 @@
   align-items: center;
   background-color: $color-5;
   color: $color-2;
-
+  @media (max-width: 600px) {
+    margin: 5rem auto 0 auto;
+    padding: 1rem;
+    justify-content: center;
+  }
   &__item {
     text-align: center;
     display: inline-block;
@@ -15,8 +19,14 @@
 
   &__item-icon {
     font-size: 4rem;
+    @media (max-width: 600px) {
+      font-size: 3rem;
+    }
   }
   &__item-info {
     font-size: 1.8rem;
+    @media (max-width: 600px) {
+      font-size: 1.6rem;
+    }
   }
 }

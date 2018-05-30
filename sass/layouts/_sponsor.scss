@@ -2,18 +2,23 @@
   padding: 2rem;
   &__header {
     margin: 8rem auto 3rem auto;
+    @media (max-width: 600px) {
+      margin: 5rem auto 0 auto;
+    }
   }
 
   &__list {
     display: flex;
     justify-content: center;
     margin-bottom: 3rem;
+    flex-wrap: wrap;
+    @media (max-width: 600px) {
+      margin-bottom: 1rem;
+    }
   }
 
   &__img {
     display: block;
-    min-width: 200px;
-    min-height: 150px;
     max-width: 200px;
     max-height: 150px;
     margin: 2rem;

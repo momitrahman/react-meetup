@@ -1,13 +1,18 @@
 .speaker {
   margin: 8rem auto 0 auto;
   padding: 2rem;
-  width: 80%;
+
+  @media (max-width: 600px) {
+    margin: 5rem auto 0 auto;
+    padding: 1rem;
+  }
 
   &__list {
     text-align: center;
     display: flex;
     justify-content: center;
     align-content: center;
+    flex-wrap: wrap;
   }
 
   &__item {
@@ -17,10 +22,6 @@
     margin: 2rem;
     border-radius: 5px;
     overflow: hidden;
-
-    &:hover {
-      filter: grayscale(30%) brightness(80%);
-    }
   }
 
   &__img {

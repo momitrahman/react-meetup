@@ -1,17 +1,25 @@
 .address {
   margin: 8rem auto 3rem auto;
   padding: 2rem;
-  width: 80%;
 
+  @media (max-width: 600px) {
+    margin: 5rem auto 0 auto;
+  }
   &__box {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    @media (max-width: 1200px) {
+      flex-direction: column;
+    }
   }
 
   &__map {
     border-radius: 5px;
     overflow: hidden;
+    @media (max-width: 700px) {
+      display: none;
+    }
   }
 
   &__title {
@@ -19,6 +27,16 @@
     color: $color-2;
     text-transform: uppercase;
     text-align: center;
+  }
+
+  &__details {
+    @media (max-width: 1200px) {
+      display: flex;
+      justify-content: space-evenly;
+    }
+    @media (max-width: 700px) {
+      flex-direction: column;
+    }
   }
 
   &__location,
@@ -30,6 +48,10 @@
     background-color: white;
     position: relative;
     transition: all 0.2s ease-in;
+    @media (max-width: 600px) {
+      margin: 2rem;
+      padding: 1rem;
+    }
 
     &:hover {
       background-color: $color-1;

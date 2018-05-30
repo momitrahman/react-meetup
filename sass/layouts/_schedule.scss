@@ -3,6 +3,9 @@
 
   &__header {
     margin: 10rem auto 3rem auto;
+    @media (max-width: 600px) {
+      margin: 5rem auto 0 auto;
+    }
   }
 
   &__list {
@@ -21,6 +24,10 @@
     margin-top: 2rem;
     border-bottom: 1px solid $color-1;
     color: $color-2;
+    @media (max-width: 768px) {
+      font-size: 1.6rem;
+      margin-left: 5px;
+    }
   }
 
   &__line {
@@ -41,6 +48,19 @@
     margin-top: 2rem;
     margin-left: 5rem;
     transition: all 0.2s ease-in;
+    @media (max-width: 768px) {
+      width: 40rem;
+      margin-top: 1rem;
+      margin-left: 2rem;
+    }
+
+    @media (max-width: 600px) {
+      width: 35rem;
+    }
+
+    @media (max-width: 320px) {
+      width: 20rem;
+    }
 
     &:before {
       content: '';
@@ -65,6 +85,13 @@
     border-radius: 100%;
     margin-right: 3rem;
     margin-left: 1rem;
+    align-self: center;
+    @media (max-width: 768px) {
+      width: 60px;
+      height: 60px;
+      margin-right: 1rem;
+      margin-left: 3px;
+    }
   }
 
   &__info {
@@ -75,6 +102,9 @@
   &__title {
     font-size: 2rem;
     color: $color-2;
+    @media (max-width: 768px) {
+      font-size: 1.8rem;
+    }
   }
 
   &__speaker {

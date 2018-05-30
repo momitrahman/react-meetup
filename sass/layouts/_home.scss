@@ -5,11 +5,10 @@
       rgba($color-4, 0.6)
     ),
     url('../asset/images/hero.jpeg');
-  background-blend-mode: multiply, multiply;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  width: 99vw;
+  width: 100%;
   height: 100vh;
   text-align: center;
   position: relative;
@@ -31,6 +30,13 @@
     font-size: 5rem;
     font-weight: 100;
     color: $color-3;
+    @media (max-width: 600px) {
+      font-size: 3rem;
+    }
+
+    @media (max-width: 360px) {
+      font-size: 2.5rem;
+    }
   }
 
   &__date {
@@ -39,6 +45,9 @@
     margin-top: 2rem;
     text-transform: uppercase;
     color: $color-1;
+    @media (max-width: 600px) {
+      font-size: 2.5rem;
+    }
   }
 
   &__reg {
@@ -50,9 +59,13 @@
     font-weight: 100;
     transition: all 0.3s ease-in;
 
+    @media (max-width: 600px) {
+      font-size: 2rem;
+    }
+
     &:hover {
       color: $color-5;
-      border: 3px solid $color-5;
+      border: 3px solid $color-3;
       cursor: pointer;
     }
   }
