@@ -29,5 +29,8 @@
     margin: 1rem 0;
     font-size: 3rem;
     color: $color-3;
+    @media (max-width: 600px) {
+      font-size: 2.5rem;
+    }
   }
 }
